@@ -1,10 +1,19 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/fonts/Poppins-Regular.woff2);
+}
 *{
  background-image: url(/public/spx.jpg); 
   /*
   background: #333;*/
 }
+
+body{
+  font-family: "Poppins";
+}
+
 #learn{
   background: #8B5CF6;
 }
